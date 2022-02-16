@@ -1,0 +1,45 @@
+.Edit-Profile{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    width: 70%;
+}
+
+.Edit-Form button{
+    float: right;
+}
+
+.Edit-Profile hr{
+    margin-top: 7rem;
+    border: solid gray 2px;
+}
+
+.account{
+    margin: 3rem auto;
+}
+
+.account button{
+    float: right;
+}
+
+@media (max-width : 991px){
+
+    .account{
+        text-align: center;
+    }
+    .account button{
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
+
+/* @media (max-width : 991px){
+
+    .account{
+        text-align: center;
+    }
+    .account button{
+        margin-top: 2rem;
+        width: 100%;
+    }
+}  */

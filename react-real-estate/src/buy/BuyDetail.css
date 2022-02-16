@@ -1,0 +1,10 @@
+.images{
+    width: 800px;
+    height: 600px;
+    overflow:auto;
+    cursor: pointer;
+}
+
+.images img{
+    margin: 2px 0;
+}

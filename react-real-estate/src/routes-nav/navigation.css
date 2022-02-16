@@ -1,0 +1,13 @@
+
+.Navigation {
+    padding-left: 5rem;
+    padding-top: .5rem;
+}
+
+.brand-name{
+    margin: 0;
+}
+
+.hamburger:active{
+    background-color: aquamarine;
+}

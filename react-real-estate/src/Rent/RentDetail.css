@@ -1,0 +1,17 @@
+
+.rent-images{
+    width: 800px;
+    height: 600px;
+    overflow: auto;
+    cursor: pointer;
+}
+
+.rent-images img {
+    margin-bottom: .2rem;
+}
+
+@media (max-width: 903px){
+    .rent-images{
+        width: 100%;
+    }
+}

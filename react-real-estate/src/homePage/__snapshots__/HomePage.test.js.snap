@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render without crashing 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="page container text-center"
+    >
+      <h1
+        class="mb-4 font-weight-bold"
+      >
+        US Real Estate
+      </h1>
+      <p
+        class="lead"
+      >
+        Find your dream place to live!
+      </p>
+      <p>
+        <a
+          class="btn btn-primary font-weight-bold mr-3"
+          href="/login"
+        >
+          Log in
+        </a>
+        <a
+          class="btn btn-primary font-weight-bold"
+          href="/register"
+        >
+          Sign up
+        </a>
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

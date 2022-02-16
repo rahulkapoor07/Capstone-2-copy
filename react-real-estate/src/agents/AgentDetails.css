@@ -1,0 +1,92 @@
+
+/* .AgentDetails {
+    background-color: #BB6464;
+    color: aliceblue;
+} */
+
+.details{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.image-description{
+
+    background-color: #470D21;
+    color: aliceblue;
+    border: 3px solid grey;
+    border-radius: 2%;
+}
+
+p{
+    font-weight: 500;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.description{
+    margin-top: 2rem;
+}
+
+
+.professional h1{
+    text-align: center;
+}
+
+.professional .info{
+    border: 5px solid gray;
+    padding: 1rem;
+    border-radius: 2%;
+    background-color: #470D21;
+    color: aliceblue;
+}
+
+.line{
+    margin-top: 1rem ;
+}
+
+@media (max-width : 901px){
+    .image-description{
+        margin-right: .5rem;
+    }
+}
+
+@media (max-width: 765px){
+    .image {
+        margin-left: 40%;
+    }
+    .image-description{
+        padding: 2rem 0;
+        text-align: center;
+        float: center;
+    }
+}
+
+@media (max-width : 530px){
+    .image-description{
+        text-align: center;
+        float: center;
+    }
+
+    .image{
+        margin-left: 30%;
+    }
+}
+
+@media (max-width : 430px){
+    .image{
+        margin-left: 25%;
+    }
+}
+
+@media (max-width : 340px){
+    .image{
+        margin-left: 20%;
+    }
+}

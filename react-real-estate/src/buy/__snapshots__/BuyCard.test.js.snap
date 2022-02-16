@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="zoom mb-5"
+  >
+    <div
+      class="col"
+    >
+      <a
+        href="/buy"
+      >
+        <div
+          class="card border border-dark"
+          style="width: 15rem;"
+        >
+          <img
+            alt="Card cap"
+            class="card-img-top"
+            src="https://st4.depositphotos.com/14953852/22772/v/1600/depositphotos_227725020-stock-illustration-image-available-icon-flat-vector.jpg"
+            style="height: 150px;"
+          />
+          <div
+            class="card-body"
+          >
+            <h5
+              class="card-title"
+            >
+              $undefined
+            </h5>
+          </div>
+          <ul
+            class="list-group list-group-flush"
+          >
+            <li
+              class="list-group-item"
+            >
+              Home undefined
+            </li>
+            <li
+              class="list-group-item"
+            />
+          </ul>
+        </div>
+      </a>
+      <a
+        href="/buy"
+      >
+        <div>
+          <svg
+            enable-background="new 0 0 48 48"
+            fill="currentColor"
+            height="2rem"
+            stroke="currentColor"
+            stroke-width="0"
+            style="position: absolute; top: 5px; right: 25px;"
+            version="1"
+            viewBox="0 0 48 48"
+            width="2rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M34,9c-4.2,0-7.9,2.1-10,5.4C21.9,11.1,18.2,9,14,9C7.4,9,2,14.4,2,21c0,11.9,22,24,22,24s22-12,22-24 C46,14.4,40.6,9,34,9z"
+              fill="#FFCDD2"
+            />
+          </svg>
+        </div>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

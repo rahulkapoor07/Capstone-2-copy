@@ -1,0 +1,10 @@
+.sold-images{
+    width: 800px;
+    height: 600px;
+    overflow:auto;
+    cursor: pointer;
+}
+
+.sold-images img{
+    margin: 2px 0;
+}

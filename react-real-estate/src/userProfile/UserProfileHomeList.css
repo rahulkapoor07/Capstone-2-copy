@@ -1,0 +1,45 @@
+.UserProfileHomeList {
+    display: inline-block;
+    margin: 100 auto 30 auto;
+}
+
+.buy-loading {
+    margin-top: 10%;
+    width:calc(80px / 0.707); /* 0.707 = cos(45deg) */
+    height:14px;
+    background: repeating-linear-gradient(-45deg, currentColor 0 15px,#0000 0 20px) left/200% 100%;
+    animation:i3 2s infinite linear;
+  }
+  @keyframes i3 {
+      100% {background-position:right}
+  }
+
+  @media (max-width : 1200px){
+    .UserProfileHomeList{
+        margin-left: 11rem;
+    }
+  }
+
+  @media (max-width : 770px){
+    .UserProfileHomeList{
+        margin-left: 6rem;
+    }
+  }
+
+  @media (max-width : 660px){
+    .UserProfileHomeList{
+        margin-left: 4rem;
+    }
+  }
+
+  @media (max-width : 540px){
+    .UserProfileHomeList{
+        margin-left: 9rem;
+    }
+  }
+
+  @media (max-width : 320px){
+    .UserProfileHomeList{
+        margin-left: 4rem;
+    }
+  }

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="AgentCard zoom"
+  >
+    <a
+      href="/agents/undefined"
+      style="background: rgb(105, 78, 78); color: white; text-decoration: none;"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-6"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-xl-3 col-lg-3"
+            >
+              <img
+                alt="photo"
+              />
+            </div>
+            <div
+              class="col-xl-8 col-lg-6"
+            >
+              <p
+                class="details"
+              >
+                <strong />
+              </p>
+              <p
+                class="details"
+              />
+              <p
+                class="details"
+              />
+              <p
+                class="details"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="description col-md-5"
+        >
+          <p>
+            No Description
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</DocumentFragment>
+`;
