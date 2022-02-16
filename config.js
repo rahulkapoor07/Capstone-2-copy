@@ -11,7 +11,7 @@ if(process.env.NODE_ENV === "production"){
 }else if (process.env.NODE_ENV === "test"){
     DB_URI = "postgresql:///real_estate_test";
 } else{
-    DB_URI = devConfig;
+    DB_URI = "postgresql:///real_estate_db";
 }
 
 
