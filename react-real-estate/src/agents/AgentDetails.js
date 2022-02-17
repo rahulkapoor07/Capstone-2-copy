@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link, Redirect, Route } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import UserContext from '../useContext/UserContext';
 import "./AgentDetails.css";
 import {v4 as uuid} from "uuid";

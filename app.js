@@ -18,10 +18,6 @@ if(process.env.NODE_ENV === "production"){
     app.use(express.static(path.join(__dirname,"react-real-estate/build")));
 }
 
-
-// app.get("/",(req, res, next)=>{
-//     res.json("kidda");
-// })
 app.use("/auth", authRouter);
 app.use("/users", usersRouter);
 app.use("/homes", homeRouter);

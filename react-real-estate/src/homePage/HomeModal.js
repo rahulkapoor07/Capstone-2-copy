@@ -1,10 +1,8 @@
 import React, {useContext, useState} from 'react';
-// import {useHistory} from "react-router-dom";
 import Modal from "react-modal";
 import UserContext from '../useContext/UserContext';
 
 function HomeModal({homeModalOpen}) {
-    // const history = useHistory();
     const {inputHandle, setModalData, setHomeModalOpen, setIsModalOpen} = useContext(UserContext);
     const INITIAL_STATE = {"input" : ""};
     const [formData, setFormData] = useState(INITIAL_STATE);
@@ -20,8 +18,6 @@ function HomeModal({homeModalOpen}) {
         setModalData(null);
         setHomeModalOpen(false);
         setIsModalOpen(true);
-        // history.push("/buy");
-
     }
 
     const customStyles = {

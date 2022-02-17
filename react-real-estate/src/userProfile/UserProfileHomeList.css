@@ -1,10 +1,5 @@
-.UserProfileHomeList {
-    display: inline-block;
-    margin: 100 auto 30 auto;
-}
-
-.buy-loading {
-    margin-top: 10%;
+.saved-loading {
+    margin-top: 5%;
     width:calc(80px / 0.707); /* 0.707 = cos(45deg) */
     height:14px;
     background: repeating-linear-gradient(-45deg, currentColor 0 15px,#0000 0 20px) left/200% 100%;
@@ -14,13 +9,13 @@
       100% {background-position:right}
   }
 
-  @media (max-width : 1200px){
+  /* @media (max-width : 1200px){
     .UserProfileHomeList{
         margin-left: 11rem;
     }
-  }
+  } */
 
-  @media (max-width : 770px){
+  /* @media (max-width : 770px){
     .UserProfileHomeList{
         margin-left: 6rem;
     }
@@ -42,4 +37,4 @@
     .UserProfileHomeList{
         margin-left: 4rem;
     }
-  }
+  } */

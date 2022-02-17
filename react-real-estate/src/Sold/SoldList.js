@@ -13,9 +13,6 @@ const SoldList = ()=>{
             const data = {"state_code":"CA","city":"yuba city"};
         soldHomes({...data});
         }
-        // return ()=>{
-        //     setSoldHomeData(null);
-        // }
     },[]);
 
     useEffect(()=>{
@@ -27,9 +24,8 @@ const SoldList = ()=>{
       
     return (
         <>
-        {soldHomeData ? <div className="SoldList container mt-5 d-flex justify-content-center" 
-        style={{"display": "inline-block"}}>
-            <div className="row">
+        {soldHomeData ? <div className="SoldList container mt-5" >
+            <div className="row justify-content-center">
                 {soldHomeData && soldHomeData.map(data => (
                     <div key={uuid()}>
                         {<SoldCard status={data.status} property_id={data.property_id}

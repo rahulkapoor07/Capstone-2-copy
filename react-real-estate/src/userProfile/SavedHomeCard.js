@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import {useHistory, Link} from "react-router-dom";
 import UserContext from '../useContext/UserContext';
 import { FcLike } from "react-icons/fc";
@@ -23,7 +23,7 @@ function SavedHomeCard({property_id, photos, list_price, status, address}){
     await userSavedHomesFunc({"username": currentUser.username});
     await savedHomesDetailsFunc({"username": currentUser.username});
   }
-  // console.log(cardData);
+
   return <div>
           {cardData ? (
         <div className="zoom mb-5">

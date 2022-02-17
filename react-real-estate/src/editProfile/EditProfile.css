@@ -1,7 +1,6 @@
 .Edit-Profile{
-    position: absolute;
-    left: 15%;
-    top: 20%;
+    margin-left: 15%;
+    margin-top: 5%;
     width: 70%;
 }
 

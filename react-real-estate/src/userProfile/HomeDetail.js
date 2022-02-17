@@ -29,8 +29,8 @@ function HomeDetail() {
   return <div className='HomeDetail'>
        <div className="container">
 
-{homeData && <div className="row">
-    <div onClick={handleClick} className="col-lg-8 images">
+{homeData && <div className="row justify-content-center">
+    <div onClick={handleClick} className="col-xl-8 col-lg-8 col-md-8 col-sm-8 col images">
     {homeData.photos ? <div>
       {homeData.photos.map(data => (
         <img key={uuid()} src={data.href}
@@ -41,7 +41,7 @@ function HomeDetail() {
       alt="not found"
       style={{"height":"500px"}}/>}
   </div>
-  <div className="col-lg-4">
+  <div className="col-xl-4 col-lg-4 col-md-4">
     <h1>
       {`$${homeData.list_price}`}{" "}
       {/* <span style={{ fontSize: "20px" }}>
@@ -62,7 +62,6 @@ function HomeDetail() {
         </ul></li>
         <li>{`Beds : ${homeData.description.beds}`}</li>
       <li>{`Lot sqft : ${homeData.description.lot_sqft}`}</li>
-      {/* <li>{`Year Built : ${homeData.description.year_built}`}</li> */}
       <li>{`Stories : ${homeData.description.stories}`}</li>
       <li>{`Type : ${homeData.description.type}`}</li>
     </ul>

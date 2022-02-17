@@ -26,15 +26,14 @@ const RentList = ()=>{
         }
     })
 
-    console.log(rentHomeData);
     return (
-        <div className="container rentList mt-5 d-flex justify-content-center">
-            <div className="row">
+        <div className="container rentList mt-5">
+            <div className="row justify-content-center">
                 {rentHomeData ? rentHomeData.map(data => (
                 <RentCard key={uuid()} property_id={data.property_id} status={data.status} primary_photo={data.primary_photo}
                 list_price={data.list_price} photos={data.photos} description={data.description} address={data.address}
                 setMessage={setMessage}/>
-            )) : <div className="buy-loading"></div>}
+            )) : <div className="rent-loading"></div>}
             </div>
         </div>
     )

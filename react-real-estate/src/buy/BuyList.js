@@ -23,8 +23,8 @@ const BuyList = ()=>{
     })
   
     return (
-        <div className="container BuyList mt-5 d-flex justify-content-center">
-            <div className="row">
+        <div className="container BuyList mt-5">
+            <div className="row justify-content-center">
             {buyHomeData? buyHomeData.map(data => (
                 <BuyCard key={uuid()} status={data.status} property_id={data.property_id}
                 primary_photo={data.primary_photo} address={data.address}

@@ -4,7 +4,6 @@ import Modal from "react-modal";
 import  {v4 as uuid} from "uuid";
 import UserContext from '../useContext/UserContext';
 import "./SelectModal.css";
-// Modal.setAppElement("#root");
 
 
 function SelectModal({modalData, isModalOpen, buyHomes, soldHomes,rentHomes, setBuyHomeData,
