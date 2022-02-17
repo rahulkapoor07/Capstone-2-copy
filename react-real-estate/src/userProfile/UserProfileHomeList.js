@@ -11,7 +11,7 @@ function UserProfileHomeList({savedHomesDetails}) {
       {savedHomesDetails ? savedHomesDetails.map(data => (
           <SavedHomeCard key={uuid()} property_id={data.property_id} list_price={data.list_price}
           photos={data.photos} status={data.status} address={data.address}/>
-      )) : <div className='buy-loading'></div>}
+      )) : <div className='saved-loading'></div>}
       </div>
   </div>
       
