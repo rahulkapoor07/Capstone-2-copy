@@ -35,7 +35,7 @@ function AgentsList() {
             ))} 
             <hr/>
             </div>
-            </div> : <div className="agent-loading"></div>}
+            </div> : <div style={{"fontSize":"3.5rem"}}>Loading...</div>}
         </div>
         </>
     )

@@ -33,7 +33,7 @@ const RentList = ()=>{
                 <RentCard key={uuid()} property_id={data.property_id} status={data.status} primary_photo={data.primary_photo}
                 list_price={data.list_price} photos={data.photos} description={data.description} address={data.address}
                 setMessage={setMessage}/>
-            )) : <div className="rent-loading"></div>}
+            )) : <div style={{"fontSize":"3.5rem"}}>Loading...</div>}
             </div>
         </div>
     )

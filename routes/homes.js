@@ -69,7 +69,6 @@ router.post("/sold",ensureLoggedIn, async(req, res, next)=>{
         const results = await sold(state_code, city);
         const favourites = [];
         const username = req.user.user.username;
-        console.log(username);
         let filteredSoldHomes = results; 
         const favHomes = 
         await db.query(`SELECT home_property_id FROM users_homes WHERE user_username = $1`,[username]);

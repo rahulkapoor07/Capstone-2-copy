@@ -98,7 +98,7 @@ const BuyCard = ({status,property_id,primary_photo,address,photos,home_details,h
           </div>
         </div>
       ) : (
-        <h3>Loading...</h3>
+        <div style={{"fontSize":"3.5rem"}}>Loading...</div>
       )}
     </>
   );

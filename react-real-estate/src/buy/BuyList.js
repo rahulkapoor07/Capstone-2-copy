@@ -31,7 +31,7 @@ const BuyList = ()=>{
                 photos ={data.photos} home_details={data.home_details}
                 home_description={data.home_description} home_price = {data.home_list_price}
                 street_view={data.street_view} fav_heart = {data.fav_heart} />
-            )) : <div className="buy-loading"></div>}
+            )) : <div style={{"fontSize":"3.5rem"}}>Loading...</div>}
             </div>
         </div>
     )

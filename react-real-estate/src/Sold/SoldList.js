@@ -35,7 +35,7 @@ const SoldList = ()=>{
                         street_view={data.street_view} setMessage={setMessage}/>}
                     </div>))}
             </div>
-        </div> : <div className="sold-loading"></div>}
+        </div> : <div style={{"fontSize":"3.5rem", "marginTop":"4%", "marginLeft":"40%"}}>Loading...</div>}
         </>
         
         

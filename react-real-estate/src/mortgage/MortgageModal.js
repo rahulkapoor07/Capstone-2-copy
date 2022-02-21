@@ -30,7 +30,7 @@ function MortgageModal({isMortgageOpen, setIsMortgageOpen, mortgageData}) {
             {Object.keys(mortgageData).map(keyName => (
               <li key={uuid()}><b>{keyName.split("_").join(" ")}</b> : {mortgageData[keyName]}</li>
             ))}
-          </ul> : <div className="mortgage-loading"></div>}
+          </ul> : <div style={{"fontSize":"3.5rem"}}>Loading...</div>}
         </Modal>
       </div>
     );

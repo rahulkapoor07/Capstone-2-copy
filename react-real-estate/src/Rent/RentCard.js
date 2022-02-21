@@ -99,7 +99,7 @@ const RentCard = ({property_id,status,primary_photo,list_price,description,addre
               </div>
             </div>
           ) : (
-            <h3>Loading...</h3>
+            <div style={{"fontSize":"3.5rem"}}>Loading...</div>
           )}
         </>
       );
