@@ -1,15 +1,21 @@
 {
   "name": "capstone_project",
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "/react-real-estate/",
+      "/helpers/","/node_modules/"
+    ]
+  },
   "version": "1.0.0",
   "description": "full stack app",
   "main": "app.js",
-  "engines" : {
-    "node" : "16.13.2",
-    "npm" : "8.1.2"
+  "engines": {
+    "node": "16.13.2",
+    "npm": "8.1.2"
   },
   "scripts": {
-    "start":"node server.js",
-    "heroku-postbuild" : "cd react-real-estate && npm install && npm run build"
+    "start": "node server.js",
+    "heroku-postbuild": "cd react-real-estate && npm install && npm run build"
   },
   "author": "Rahul kapoor",
   "license": "ISC",

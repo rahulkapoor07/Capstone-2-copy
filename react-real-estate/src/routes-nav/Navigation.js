@@ -40,11 +40,11 @@ function Navigation({logOut}) {
               Rent
             </NavLink>
           </li>
-          <li className="nav-item mr-4 mr-md-1">
+          {/* <li className="nav-item mr-4 mr-md-1">
             <NavLink className="links nav-link" to="/agents">
               Agents
             </NavLink>
-          </li>
+          </li> */}
           <li className="nav-item mr-4 mr-md-1">
             <NavLink className="links nav-link" to="/mortgage-calculator">
               Mortgage Calculator
@@ -99,8 +99,8 @@ function Navigation({logOut}) {
   }
 
   return (
-      <nav className="Navigation navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between">
-        <Link className="navbar-brand brand-name" style={{"marginLeft":"-60px"}}  to="/">
+      <nav className="Navigation navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between custom-nav-box">
+        <Link className="navbar-brand brand-name"  to="/">
           US Real Estate
         </Link>
         {currentUser ? loggedInNav() : loggedOutNav()}

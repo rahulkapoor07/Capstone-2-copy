@@ -1,4 +1,4 @@
-
+/* 
 .Navigation {
     padding-left: 5rem;
     padding-top: .5rem;
@@ -10,4 +10,44 @@
 
 .hamburger:active{
     background-color: aquamarine;
+} */
+
+.Navigation {
+    padding-left: 16px;
+    padding-top: .5rem;
+}
+
+/* .title-style{
+    margin-left: -60px;
+} */
+
+/* .brand-name{
+    margin: 0;
+} */
+
+.hamburger:active{
+    background-color: aquamarine;
+}
+
+
+@media all and (max-width: 991px){
+    .custom-nav-box{
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
+        padding-left: 16px;
+    }
+    .title-style{
+        margin-left: 0;
+    }
+    .item-list-nav{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .navbar-toggler{
+        position: absolute;
+        right: 10px;
+        top: 8px;
+    }
 }
